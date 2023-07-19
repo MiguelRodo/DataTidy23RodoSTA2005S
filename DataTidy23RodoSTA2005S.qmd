@@ -1,5 +1,5 @@
 ---
-title: Introductory slides for STA2005S regression section
+title: Distribute data for STA2005S regression
 format:
   pdf:
     embed-resources: true

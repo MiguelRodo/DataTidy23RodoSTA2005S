@@ -3,6 +3,7 @@ directories:
   data-raw:
     path: _data_raw
     archive: true
+    ignore: false
   cache: 
     path: _tmp
   output: 
