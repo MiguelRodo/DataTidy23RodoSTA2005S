@@ -1,0 +1,9 @@
+---
+title: Introductory slides for STA2005S regression section
+format:
+  pdf:
+    embed-resources: true
+---
+
+# Introduction
+
