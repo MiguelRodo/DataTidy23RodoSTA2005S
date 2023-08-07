@@ -11,3 +11,6 @@ BugReports: https://github.com/MiguelRodo/DataTidy23RodoSTA2005S/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
