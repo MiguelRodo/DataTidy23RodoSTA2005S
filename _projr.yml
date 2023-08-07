@@ -19,7 +19,7 @@ build:
   git:
     commit: yes
     add-untracked: yes
-    push: no
+    push: true
   github-release:
     '@version':
       content: code
@@ -28,6 +28,6 @@ build:
       content: data-raw
       body: Project inputs
     output:
-      content: output
+      content: [output, docs]
       body: Project outputs
 
