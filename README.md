@@ -5,7 +5,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of DataTidy23RodoSTA2005S is to provision the data for the STA2005S regression section.
+The goal of DataTidy23RodoSTA2005S is to distribute data for STA2005S
+regression.
 
 ## Installation
 
