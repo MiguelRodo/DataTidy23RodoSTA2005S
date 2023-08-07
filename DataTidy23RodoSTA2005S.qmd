@@ -15,7 +15,7 @@ format:
 data_raw_ad <- readr::read_csv(projr::projr_path_get("data-raw", "Advertising.csv"))
 data_raw_ad <- data_raw_ad |>
   dplyr::select(-`...1`)
-data_tidy_ad <- data_raw_ad
+data_tidy_ad <- data_raw_ad |> tibble::as_tibble()
 usethis::use_data(data_tidy_ad, overwrite = TRUE)
 ```
 
@@ -25,7 +25,7 @@ usethis::use_data(data_tidy_ad, overwrite = TRUE)
 data_raw_biomass <- readr::read_csv(projr::projr_path_get("data-raw", "biomass.csv"))
 data_raw_biomass <- data_raw_biomass |>
   dplyr::select(-`i`)
-data_tidy_biomass <- data_raw_biomass
+data_tidy_biomass <- data_raw_biomass |> tibble::as_tibble()
 usethis::use_data(data_tidy_biomass, overwrite = TRUE)
 ```
 
@@ -33,6 +33,6 @@ usethis::use_data(data_tidy_biomass, overwrite = TRUE)
 
 ```{r}
 data_raw_tobacco <- readr::read_table(projr::projr_path_get("data-raw", "tobacco.txt"))
-data_tidy_tobacco <- data_raw_tobacco
+data_tidy_tobacco <- data_raw_tobacco |> tibble::as_tibble()
 usethis::use_data(data_tidy_tobacco, overwrite = TRUE)
 ```
